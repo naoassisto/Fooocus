@@ -563,6 +563,7 @@ def update_files():
     lora_filenames = get_model_filenames(paths_loras)
     wildcard_filenames = get_files_from_folder(path_wildcards, ['.txt'])
     available_presets = get_presets()
+    print("Updated LoRA filenames:", lora_filenames)
     return
 
 
